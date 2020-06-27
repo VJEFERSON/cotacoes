@@ -1,0 +1,18 @@
+#icon-logo {
+    width: 45px;
+    height: 45px;
+    color: white;
+}
+
+.icons-cotation {
+    width: 35px;
+    height: 35px;
+}
+
+footer {
+    background-color: #333333;
+    color: #eeeeee;
+    border-top: 1px solid #333333;
+    margin-top: 16px;
+    padding: 16px 0;
+}
