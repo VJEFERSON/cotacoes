@@ -13,7 +13,7 @@ cotacoesForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const symbol = document.querySelector('input').value;
     console.log(symbol);
-    fetch(`http://localhost:3000/cotacoes?ativo=${symbol}`).then((response) => {
+    fetch(`/cotacoes?ativo=${symbol}`).then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 mainMessage.innerText = `Algo deu errado! Erro ${data.error.code}: ${data.error.message}`;
